@@ -12,7 +12,7 @@ from pyspark.sql.window import Window
 
 from get_spark import GetSpark
 
-PROFILE = "<profile>"
+PROFILE = "feaz"
 
 spark = GetSpark(profile=PROFILE).init_spark(eager=True)
 
